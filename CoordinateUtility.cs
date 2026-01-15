@@ -122,7 +122,7 @@ namespace Everything_To_IMU_SlimeVR.Tracking
 
             float yaw = 0;
             float roll = 0;
-            // Check for gimbal lock (pitch = �90 degrees)
+            // Check for gimbal lock (pitch = ±90 degrees)
             if (MathF.Abs(pitch) >= MathF.PI / 2)
             {
                 yaw = MathF.Atan2(q.Y, q.W);
