@@ -1,6 +1,9 @@
 ﻿using SlimeImuProtocol.SlimeVR;
 using System.Numerics;
 using System.Text;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 using static SlimeImuProtocol.SlimeVR.FirmwareConstants;
 
 namespace SlimeImuProtocol {

@@ -1,4 +1,6 @@
-﻿namespace SlimeImuProtocol.Utility {
+﻿using System.IO;
+
+namespace SlimeImuProtocol.Utility {
     public class BigEndianBinaryWriter : BinaryWriter {
         public BigEndianBinaryWriter(Stream stream) : base(stream) { }
         public override void Write(float value) {

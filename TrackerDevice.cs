@@ -1,4 +1,5 @@
 ﻿using SlimeImuProtocol;
+using System.Collections.Generic;
 using static SlimeImuProtocol.SlimeVR.FirmwareConstants;
 
 public class TrackerDevice {

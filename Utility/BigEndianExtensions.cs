@@ -1,4 +1,6 @@
-﻿namespace SlimeImuProtocol.Utility {
+﻿using System;
+
+namespace SlimeImuProtocol.Utility {
     public static class BigEndianExtensions {
         static bool _skipCorrection = false;
 

@@ -1,4 +1,6 @@
-﻿namespace SlimeImuProtocol {
+﻿using System.Collections.Generic;
+
+namespace SlimeImuProtocol {
     public class DeviceManager {
         private static DeviceManager _instance = new DeviceManager();
         Dictionary<string, TrackerDevice> _devices = new Dictionary<string, TrackerDevice>();

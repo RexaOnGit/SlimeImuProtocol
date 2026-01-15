@@ -4,6 +4,9 @@ using System.Net;
 using System.Net.Sockets;
 using System.Numerics;
 using System.Text;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 using static SlimeImuProtocol.SlimeVR.FirmwareConstants;
 
 namespace SlimeImuProtocol.SlimeVR
